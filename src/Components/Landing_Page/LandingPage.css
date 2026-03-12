@@ -1,0 +1,59 @@
+/* 1. The Main Hero Container */
+.hero-section {
+    display: flex !important;
+    flex-direction: column !important;
+    align-items: center !important;
+    justify-content: center !important;
+    text-align: center !important;
+    min-height: 100vh; /* Full screen height */
+    padding: 0 20px;
+    background: linear-gradient(135deg, #ffffff 0%, #f0f7ff 100%);
+    margin-top: -80px; /* Pulls content up to account for fixed navbar */
+}
+
+/* 2. The Massive, Modern Heading */
+.hero-section h1 {
+    font-size: 5rem !important; /* Large and bold to match the logo */
+    font-weight: 900;
+    color: #0d213f;
+    line-height: 1.1;
+    margin-bottom: 25px;
+    letter-spacing: -2px;
+}
+
+/* 3. The Gradient Effect for "Our Responsibility" */
+.text-gradient {
+    background: linear-gradient(90deg, #2190FF, #00d4ff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/* 4. The Sub-heading (Description) */
+.hero-section h4 {
+    font-size: 1.4rem;
+    color: #4a5568;
+    max-width: 700px;
+    line-height: 1.6;
+    margin-bottom: 40px;
+    font-weight: 400;
+}
+
+/* 5. The "Get Started" Button (Enhanced) */
+.button {
+    background-color: #2190FF !important;
+    color: white !important;
+    padding: 20px 50px !important;
+    font-size: 1.4rem !important;
+    font-weight: 700 !important;
+    border-radius: 12px !important;
+    border: none !important;
+    cursor: pointer !important;
+    box-shadow: 0 15px 30px rgba(33, 144, 255, 0.3) !important;
+    transition: all 0.3s ease !important;
+}
+
+.button:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(33, 144, 255, 0.4) !important;
+    background-color: #1a74cc !important;
+}

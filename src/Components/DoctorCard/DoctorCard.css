@@ -1,0 +1,90 @@
+.doctor-card-container {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 15px;
+    width: 280px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.07);
+    display: inline-block; /* Allows cards to sit side-by-side */
+    vertical-align: top;
+}
+
+.doctor-card-profile-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    overflow: hidden;
+    margin: 0 auto 15px auto;
+    border: 3px solid #2190FF;
+}
+
+.doctor-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Important: keeps Pixabay images from stretching */
+}
+
+.doctor-card-info h2 {
+    font-size: 1.1rem;
+    margin-bottom: 5px;
+}
+
+.doctor-card-speciality {
+    color: #2190FF;
+    font-weight: bold;
+}
+
+.book-appointment-btn {
+    width: 100%;
+    background-color: #2190FF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 15px;
+    cursor: pointer;
+}
+
+.book-appointment-btn div:last-child {
+    font-size: 0.7rem;
+    font-weight: normal;
+}
+
+.booked-info {
+    text-align: left;
+    padding: 10px;
+    background-color: #f0faff;
+    border-radius: 8px;
+    border: 1px dashed #2190FF;
+    margin-top: 10px;
+}
+
+.cancel-appointment-btn {
+    background-color: #ff4d4f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.cancel-appointment-btn:hover {
+    background-color: #d9363e;
+}
+
+.doctor-card-profile-image {
+    width: 120px;  /* Make sure this is not 0 */
+    height: 120px; /* Make sure this is not 0 */
+    overflow: hidden;
+    border-radius: 50%; /* This makes it a circle */
+}
+
+.doctor-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* This prevents the face from looking stretched */
+}

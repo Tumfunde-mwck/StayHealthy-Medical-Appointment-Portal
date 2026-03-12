@@ -1,0 +1,63 @@
+/* Container holding the profile information */
+.profile-container {
+    max-width: 400px; 
+    margin: 10% auto; /* Centers the card and pushes it down from the top */
+    padding: 20px; 
+    background-color: #f5f5f5; 
+    border-radius: 8px; /* Slightly more rounded for a modern look */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1); /* Adds a soft shadow */
+}
+
+/* Heading styles */
+.profile-container h1 {
+    margin-top: 0;
+    color: #333;
+}
+
+/* Form layout */
+.profile-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* Label and Input styles */
+.profile-container label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.profile-container input[type="text"],
+.profile-container input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Ensures padding doesn't break the width */
+}
+
+/* Button styles */
+.profile-container button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2190ff;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+}
+
+.profile-container button:hover {
+    background-color: #1a76d2; /* Darker blue when hovering */
+}
+
+/* Read-only details view */
+.profile-details {
+    background-color: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #eee;
+}

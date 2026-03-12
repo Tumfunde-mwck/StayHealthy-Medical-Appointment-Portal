@@ -1,0 +1,75 @@
+.find-doctor-container {
+    padding: 60px 20px;
+    background-color: #f4f7fa;
+}
+
+.search-box-area {
+    position: relative;
+    width: 100%;
+    max-width: 500px;
+    margin-top: 30px;
+}
+
+.search-input {
+    width: 100%;
+    padding: 16px 50px 16px 25px;
+    border-radius: 50px;
+    border: 2px solid #cbd5e0;
+    font-size: 1.1rem;
+    outline: none;
+    transition: border-color 0.3s;
+}
+
+.search-input:focus {
+    border-color: #2190FF;
+}
+
+.search-icon {
+    position: absolute;
+    right: 20px;
+    top: 18px;
+    font-size: 1.2rem;
+    color: #2190FF;
+}
+
+.speciality-dropdown {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    right: 0;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    z-index: 1000;
+    text-align: left;
+    overflow: hidden;
+}
+
+.dropdown-item {
+    padding: 15px 25px;
+    cursor: pointer;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.dropdown-item:hover {
+    background-color: #e6f2ff;
+    color: #2190FF;
+}
+
+.dropdown-item:last-child {
+    border-bottom: none;
+}
+
+.search-results {
+    display: flex;
+    flex-wrap: wrap; /* This lets cards sit side-by-side */
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+.search-results-container h2 {
+    text-align: center;
+    margin-top: 40px;
+    color: #333;
+}

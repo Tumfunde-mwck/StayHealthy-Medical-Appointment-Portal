@@ -1,0 +1,57 @@
+/* ReportsLayout.css */
+.reports-container {
+    max-width: 1000px;
+    margin: 40px auto;
+    padding: 30px;
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.reports-table {
+    width: 100%;
+    border-collapse: separate;
+    border-spacing: 0 10px; /* Adds space between rows */
+}
+
+.reports-table th {
+    background-color: #2190ff;
+    color: white;
+    padding: 15px;
+    text-align: left;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+}
+
+.reports-table td {
+    padding: 15px;
+    background-color: #f8f9fa;
+    border-top: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+}
+
+/* Rounded corners for the first and last cells of each row */
+.reports-table td:first-child { border-left: 1px solid #dee2e6; border-radius: 8px 0 0 8px; }
+.reports-table td:last-child { border-right: 1px solid #dee2e6; border-radius: 0 8px 8px 0; }
+
+.report-actions {
+    display: flex;
+    gap: 12px;
+}
+
+.view-btn, .download-btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    transition: all 0.3s ease;
+}
+
+.view-btn { background-color: #6c757d; color: white; }
+.download-btn { background-color: #2190ff; color: white; }
+
+.view-btn:hover, .download-btn:hover {
+    transform: translateY(-2px); /* Slight lift effect */
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}

@@ -1,0 +1,96 @@
+/* Core Navigation Bar */
+nav {
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* This separates logo and links */
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 2000;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+}
+
+
+
+/* Logo Styling - Enlarged */
+.nav__logo {
+    padding-left: 80px; /* Adjusted slightly for the larger size */
+}
+
+
+.logo-link {
+    display: flex !important;
+    align-items: center;
+    text-decoration: none !important;
+    gap: 12px;           /* More space for a bigger icon */
+    font-size: 10rem;   /* Increased from 1.8rem */
+    font-weight: 900;    /* Extra black weight */
+    color: #0d213f;
+}
+
+.logo-link:hover {
+    transform: scale(1.02);
+}
+
+.logo-dot {
+    color: #2190FF;
+    font-size: 3rem;     /* Makes the dot huge and stylish */
+    margin-left: -8px; 
+}
+
+.logo-icon {
+    display: block;
+    width: 100px;         /* Increased from 28px */
+    height: 100px;
+    stroke: #2190FF;
+    stroke-width: 3;     /* Makes the pulse line thicker and easier to see */
+}
+
+/* Links Container */
+.nav__links {
+    list-style: none;
+    display: flex;
+    gap: 2.5rem;
+    padding-right: 60px; /* Balances the right side with the logo's padding */
+}
+
+.btn1 {
+    background-color: #2190FF;
+    color: white;
+    padding: 10px 24px;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 6px rgba(33, 144, 255, 0.2);
+}
+
+.btn1:hover {
+    background-color: #1a76d2;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 12px rgba(33, 144, 255, 0.3);
+}
+
+/* Logout Dropdown Button */
+.btn2 {
+    width: 100%;
+    padding: 8px;
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
